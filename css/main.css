@@ -1,0 +1,98 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #fff;
+	height: 100vh;
+}
+
+
+/* nav bar */
+nav{
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 15%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-transform: uppercase;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2em;
+	overflow: hidden;
+	/*box-shadow: 3px 30px 30px 0px #606060;*/
+}
+
+
+.nav-grid-left	{
+	padding-top: 50px;
+	padding-left: 100px;
+	
+}
+
+.nav-gird-right	{
+	padding-top: 50px;
+	padding-right: 100px;
+	display: flex;
+	direction: row;
+}
+
+.nav-gird-right p {
+	padding-right: 25px;
+}
+
+/* top slide show */
+.slide-show	{
+	height: 85%;
+	background-color: grey;
+}
+
+/* main */
+.main	{
+	background-color: #fff;
+	height: 1000px;
+}
+
+/* footer */
+footer	{
+	background-color: #000;
+	height: 30%;
+	
+}
+
+.footer-wrapper	{
+	padding-top: 90px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+footer .logo	{
+	padding-left: 50px;
+}
+
+footer .logo p{
+	color: #fff;
+}
+
+footer .center-footer	{
+	color: #fff;
+}
+
+footer .right-footer {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	padding-right: 100px;
+}
+
+footer .center-footer h3 {
+	border-bottom: 3px solid #fff;
+	margin-bottom: 4px;
+}
+
+.right-footer i {
+	color: #fff;
+}
